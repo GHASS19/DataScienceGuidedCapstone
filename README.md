@@ -49,6 +49,21 @@ The heat map was helpful to display the correlation between the data points. For
 
 The scatterplots helped us to determine which features we should be wary of to form our opinion on ticket prices. It also showed what has a high correlation with the price. Ticket price could decrease a little then go up as the number of resorts per capita increases. Ticket price could climb with the higher number of resorts because it indicates a popular area for skiing with plenty of demand like the state of Colorado. On the opposite side a lower price with less ski resorts might be because it is not popular for skiing. Interestingly enough a high price for a resort where the resorts are far in between for the population size could have a monopoly effect. Lastly, if the resort has a big area then having a few fast quads may increase ticket prices.
 
+##Preprocessing & Training
+The Sklearn DummyRegressor was the same as our baseline idea of performance with an average price of 63.81.The results were
+almost the same when we used the median and then the mean. When we utilized the mean for missing values in the linear model they
+were higher. The similar results gave us a model that was overfitting. 
+
+The mean absolute error was one of the most helpful parts of the metrics. We found out that you could expect to be off by
+roughly $19 if you simply guessed the ticket price. During our EDA we found out that vertical drop had a big impact on what 
+people were willing to pay for a ticket. The linear model of coefficient validated what we found in the EDA. We also found that
+Snowmaking, total chairs and fast quads also had a huge impact on average price.
+
+Going forward we will use the random forest model. This model found that the top features were fastquads, runs, snowmaking
+and vertical drop. It worked better than the linear model with missing data. The cross validation between the two models found 
+that the random forest model was more accurate. It had a lower mean absolute error by over $1 then the other model.
+
+
 ## Key Findings
 1. Big Mountain offers more facilities and skiable terrain than most other resorts in the United States.
 2. In both of our models vertical drop, snow making, total chairs, fast quads, runs, longest run, trams and skiable terrain were the most important to guests.  
