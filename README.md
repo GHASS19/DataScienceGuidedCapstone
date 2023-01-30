@@ -3,16 +3,16 @@
 ![image](https://user-images.githubusercontent.com/86930309/215365766-84e3206d-901c-4e3c-a0bd-01f923175d50.png)
 
 
-## Context of Problem:
+## 1. Context of Problem:
 Big Mountain Resort recently installed a new chairlift. The chairlift increased their operating costs by $1,540,000 for the season. The resort's pricing strategy has been to charge a premium above the average price of resorts in its market segment. Big Mountain is probably not capitalizing on its facilities to its potential.Their current ticket price compared to the market average does not provide how important different facilities are to their guests. Their ticket price is undervalued. This hinders their business investment strategy.
 
-## Criteria for Success:
+## 2. Criteria for Success:
 Implementing a data-driven business strategy to create more revenue. Selecting the best possible value for their ticket price with data and information based upon other resorts in the United States that they compete with. Find ways to cut costs without reducing the ticket price. Or creating new facilities to justify a higher ticket price will create new success for Big Mountain.
 
-## Scope of Success:
+## 3. Scope of Success:
 Utilizing an algorithm in python based upon other ski resort’s data and facilities in the United States to find the best possible ticket price that fits their market segment. This will also help them locate what facilities they need to add or remove to produce better revenue.
 
-## Stakeholders:
+## 4. Stakeholders:
 -CEO          
 -CTO       
 -Data Science Team   
@@ -23,10 +23,10 @@ Utilizing an algorithm in python based upon other ski resort’s data and facili
 -Jimmy Blackburn, Director of Operations       
 -President 
  
-## Key Data Sources:
+## 5. Key Data Sources:
 -skiResort.csv  
 
-## Data Wrangling
+## 6. Data Wrangling
 There are 330 rows and 27 columns in the data originally. Our own resort, Big Mountain Resort was present and did not have any missing data. We know that the adult weekend price is our target feature to predict the ticket price. Prices for tickets in Montana are about equal for weekday and weekend and we have more data on weekend prices.
 
 We dropped the 'fastEight' column because half the values were missing and the rest had a value of 0. This missing information does not help us to create a new ticket price or which facilites to improve. There was a resort created in 2019 that was dropped as a row because we do not know if the numbers were projected or actual at the time of data entry. It is hard to form a sound opinion based upon this type of data. 47 of the 328 columns, (14.32%) had no 'AdultWeekday' or 'AdultWeekend' data, so we deleted those 47 rows as well. Getting rid of this data can help us to form a better idea of how to help the client.
@@ -37,7 +37,7 @@ Currently in the project we have pin pointed that adult weekend prices is the ta
 
 We have 277 rows and 25 columns left in the data.
 
-##EDA
+## 7. EDA
 Our state of interest, Montana is less densely populated than most of the others but is the third largest state. It is in the top five for total skiable area. A majority of the states have a smaller number of resorts relative to the state population and size. Interestingly New Hampshire and Vermont have a high amount of resorts per area but are small in size. The distribution for the average adult weekend ticket price per state varied from the mid 
 90s.
 
@@ -49,7 +49,7 @@ The heat map was helpful to display the correlation between the data points. For
 
 The scatterplots helped us to determine which features we should be wary of to form our opinion on ticket prices. It also showed what has a high correlation with the price. Ticket price could decrease a little then go up as the number of resorts per capita increases. Ticket price could climb with the higher number of resorts because it indicates a popular area for skiing with plenty of demand like the state of Colorado. On the opposite side a lower price with less ski resorts might be because it is not popular for skiing. Interestingly enough a high price for a resort where the resorts are far in between for the population size could have a monopoly effect. Lastly, if the resort has a big area then having a few fast quads may increase ticket prices.
 
-##Preprocessing & Training
+## 8. Preprocessing & Training
 The Sklearn DummyRegressor was the same as our baseline idea of performance with an average price of 63.81.The results were
 almost the same when we used the median and then the mean. When we utilized the mean for missing values in the linear model they
 were higher. The similar results gave us a model that was overfitting. 
@@ -63,14 +63,35 @@ Going forward we will use the random forest model. This model found that the top
 and vertical drop. It worked better than the linear model with missing data. The cross validation between the two models found 
 that the random forest model was more accurate. It had a lower mean absolute error by over $1 then the other model.
 
+## 9. Modeling
+The exclusion of operating cost of all facilities was a deficiency in the data. We need to know how much it is to
+operate a triple on the weekends is just one example. We also need to know how much we save or spend when we close a run or
+increase snow making. How much it would cost to install a new chairlift and a permit from the NFS to open 150 vertical feet
+could make or break their revenue. There are a lot of variables that we need to know to make a better decision. Building another
+model that predicts the change in guest’s behavior due to an increase in ticket price would be helpful for the business leaders
+to make a sound decision.
 
-## Key Findings
+The modeled price is higher simply because Big Mountain offers more facilities and skiable terrain than other resorts in the
+United States. It may or may not come as a surprise to the business executives depending on their point of view and the number
+of guests that visit the resort every year. Having a conversation with the business executives about the resort would be the
+best way to find out if they were surprised that the modeled price was much higher than they thought it would be.
+
+The business leaders could increase prices and reduce a run to improve revenue is how they could make use of this 
+information. They could also use the data to get a loan to improve certain facilities by showing a lender that they are in the 
+top portion of resort offerings and can charge more for a ticket. This would show the lender that they could pay back the 
+loan in a certain amount of time.
+
+We could make a website where the business leaders could manipulate the data to show them different scenarios of ticket
+prices, facilities, etc. This would help them make a good decision on product offerings and revenue. This would make it user 
+friendly for the busy business executives.
+
+## 10. Key Findings
 1. Big Mountain offers more facilities and skiable terrain than most other resorts in the United States.
 2. In both of our models vertical drop, snow making, total chairs, fast quads, runs, longest run, trams and skiable terrain were the most important to guests.  
 3. The resort is in the top portion of fast quads, runs, snow making, total chairs and vertical drop compared to other places.
 4. Most other resorts like Big Sky do not have a tram.
 
-## Recommendations:
+## 11. Recommendations:
 1. I recommend that Big Mountain Resort increase their weekend price to $95.87 from $81.00. 
 2. I would do an experiment for a certain amount of time and close just one ski run on the weekend to reduce maintenance cost.
 3. Adding a run, 150 vertical feet and a new chairlift, (fast quad) is what I highly suggest the resort enact. This plan justifies a ticket price increase of $1.99 that improves revenue to $3,474,638 per year.
