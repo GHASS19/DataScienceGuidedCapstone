@@ -37,6 +37,18 @@ Currently in the project we have pin pointed that adult weekend prices is the ta
 
 We have 277 rows and 25 columns left in the data.
 
+##EDA
+Our state of interest, Montana is less densely populated than most of the others but is the third largest state. It is in the top five for total skiable area. A majority of the states have a smaller number of resorts relative to the state population and size. Interestingly New Hampshire and Vermont have a high amount of resorts per area but are small in size. The distribution for the average adult weekend ticket price per state varied from the mid 
+90s.
+
+The first two components of the ski data, resorts per state and state total skiable area account for over 76.8% of the variance. These two data points have the biggest effect on the difference between resorts.
+
+At first it seems that New York standed out for potentially serving a large population with a high number of ski resorts. When we scale the data to make everything equal we find that New York does not stand-out for density of ski resorts for state size or population count. When the data is equally scaled we work towards building a pricing model that considers all states together.
+
+The heat map was helpful to display the correlation between the data points. For example there was a high ratio of night skiing area with the number of resorts per capita. The heat map helped us identify which target features to select in improving the ticket price. Adult weekend price had a high correlation with fast quads,resort night skiing state ratio runs and snow making. Guests like the idea of having guaranteed snow when they are there. This increases the price of snow making equipment and the price of an adult weekend ticket. To increase the ticket price it might be good to have a higher share of night skiing capacity.
+
+The scatterplots helped us to determine which features we should be wary of to form our opinion on ticket prices. It also showed what has a high correlation with the price. Ticket price could decrease a little then go up as the number of resorts per capita increases. Ticket price could climb with the higher number of resorts because it indicates a popular area for skiing with plenty of demand like the state of Colorado. On the opposite side a lower price with less ski resorts might be because it is not popular for skiing. Interestingly enough a high price for a resort where the resorts are far in between for the population size could have a monopoly effect. Lastly, if the resort has a big area then having a few fast quads may increase ticket prices.
+
 ## Key Findings
 1. Big Mountain offers more facilities and skiable terrain than most other resorts in the United States.
 2. In both of our models vertical drop, snow making, total chairs, fast quads, runs, longest run, trams and skiable terrain were the most important to guests.  
