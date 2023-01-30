@@ -39,7 +39,7 @@ Currently in the project we have pin pointed that adult weekend prices is the ta
 We have 277 rows and 25 columns left in the data.
 
 ## 7. EDA
-
+[EDA](https://github.com/GHASS19/Data_Science_Ski_Ticket_Price_Predictor_Capstone/blob/master/Notebooks/03_exploratory_data_analysis.ipynb)
 Our state of interest, Montana is less densely populated than most of the others but is the third largest state. It is in the top five for total skiable area. A majority of the states have a smaller number of resorts relative to the state population and size. Interestingly New Hampshire and Vermont have a high amount of resorts per area but are small in size. The distribution for the average adult weekend ticket price per state varied from the mid 
 90s.
 
