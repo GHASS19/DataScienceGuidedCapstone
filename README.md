@@ -1,7 +1,6 @@
 # Data_Science_Ski_Ticket_Price_Predictor_Capstone
 
 ![image](https://user-images.githubusercontent.com/86930309/215365766-84e3206d-901c-4e3c-a0bd-01f923175d50.png)
-![image](https://user-images.githubusercontent.com/86930309/215372538-b283f3a5-ab94-4190-b278-0e54fcc05e01.png)
 
 ## 1. Context of Problem:
    Big Mountain Resort recently installed a new chairlift. The chairlift increased their operating costs by $1,540,000 for the season. The resort's pricing strategy has been to charge a premium above the average price of resorts in its market segment. Big Mountain is probably not capitalizing on its facilities to its potential.Their current ticket price compared to the market average does not provide how important different facilities are to their guests. Their ticket price is undervalued. This hinders their business investment strategy.
@@ -52,6 +51,7 @@ At first it seems that New York standed out for potentially serving a large popu
 The heat map was helpful to display the correlation between the data points. For example there was a high ratio of night skiing area with the number of resorts per capita. The heat map helped us identify which target features to select in improving the ticket price. Adult weekend price had a high correlation with fast quads,resort night skiing state ratio runs and snow making. Guests like the idea of having guaranteed snow when they are there. This increases the price of snow making equipment and the price of an adult weekend ticket. To increase the ticket price it might be good to have a higher share of night skiing capacity.
 
 The scatterplots helped us to determine which features we should be wary of to form our opinion on ticket prices. It also showed what has a high correlation with the price. Ticket price could decrease a little then go up as the number of resorts per capita increases. Ticket price could climb with the higher number of resorts because it indicates a popular area for skiing with plenty of demand like the state of Colorado. On the opposite side a lower price with less ski resorts might be because it is not popular for skiing. Interestingly enough a high price for a resort where the resorts are far in between for the population size could have a monopoly effect. Lastly, if the resort has a big area then having a few fast quads may increase ticket prices.
+![image](https://user-images.githubusercontent.com/86930309/215372538-b283f3a5-ab94-4190-b278-0e54fcc05e01.png)
 
 ## 8. Preprocessing & Training
 [Preprocessing & Training](https://github.com/GHASS19/Data_Science_Ski_Ticket_Price_Predictor_Capstone/blob/master/Notebooks/04_preprocessing_and_training.ipynb)
