@@ -1,6 +1,7 @@
 # Data_Science_Ski_Ticket_Price_Predictor_Capstone
 
 ![image](https://user-images.githubusercontent.com/86930309/215365766-84e3206d-901c-4e3c-a0bd-01f923175d50.png)
+![image](https://user-images.githubusercontent.com/86930309/215372538-b283f3a5-ab94-4190-b278-0e54fcc05e01.png)
 
 ## 1. Context of Problem:
    Big Mountain Resort recently installed a new chairlift. The chairlift increased their operating costs by $1,540,000 for the season. The resort's pricing strategy has been to charge a premium above the average price of resorts in its market segment. Big Mountain is probably not capitalizing on its facilities to its potential.Their current ticket price compared to the market average does not provide how important different facilities are to their guests. Their ticket price is undervalued. This hinders their business investment strategy.
