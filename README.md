@@ -92,6 +92,7 @@ loan in a certain amount of time.
 We could make a website where the business leaders could manipulate the data to show them different scenarios of ticket
 prices, facilities, etc. This would help them make a good decision on product offerings and revenue. This would make it user 
 friendly for the busy business executives.
+![image](https://user-images.githubusercontent.com/86930309/215372734-16efba9f-9430-4214-902e-0c291f0f76e3.png)
 
 ## 10. Key Findings
 1. Big Mountain offers more facilities and skiable terrain than most other resorts in the United States.
