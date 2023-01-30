@@ -70,6 +70,8 @@ and vertical drop. It worked better than the linear model with missing data. The
 that the random forest model was more accurate. It had a lower mean absolute error by over $1 then the other model.
 
 ## 9. Modeling
+[Modeling](https://github.com/GHASS19/Data_Science_Ski_Ticket_Price_Predictor_Capstone/blob/master/Notebooks/05_modeling.ipynb)
+
 The exclusion of operating cost of all facilities was a deficiency in the data. We need to know how much it is to
 operate a triple on the weekends is just one example. We also need to know how much we save or spend when we close a run or
 increase snow making. How much it would cost to install a new chairlift and a permit from the NFS to open 150 vertical feet
