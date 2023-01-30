@@ -28,6 +28,7 @@ Utilizing an algorithm in python based upon other ski resort’s data and facili
 
 ## 6. Data Wrangling
 [Data Wrangling](https://github.com/GHASS19/Data_Science_Ski_Ticket_Price_Predictor_Capstone/blob/master/Notebooks/02_data_wrangling.ipynb)
+
 There are 330 rows and 27 columns in the data originally. Our own resort, Big Mountain Resort was present and did not have any missing data. We know that the adult weekend price is our target feature to predict the ticket price. Prices for tickets in Montana are about equal for weekday and weekend and we have more data on weekend prices.
 
 We dropped the 'fastEight' column because half the values were missing and the rest had a value of 0. This missing information does not help us to create a new ticket price or which facilites to improve. There was a resort created in 2019 that was dropped as a row because we do not know if the numbers were projected or actual at the time of data entry. It is hard to form a sound opinion based upon this type of data. 47 of the 328 columns, (14.32%) had no 'AdultWeekday' or 'AdultWeekend' data, so we deleted those 47 rows as well. Getting rid of this data can help us to form a better idea of how to help the client.
@@ -40,6 +41,7 @@ We have 277 rows and 25 columns left in the data.
 
 ## 7. EDA
 [EDA](https://github.com/GHASS19/Data_Science_Ski_Ticket_Price_Predictor_Capstone/blob/master/Notebooks/03_exploratory_data_analysis.ipynb)
+
 Our state of interest, Montana is less densely populated than most of the others but is the third largest state. It is in the top five for total skiable area. A majority of the states have a smaller number of resorts relative to the state population and size. Interestingly New Hampshire and Vermont have a high amount of resorts per area but are small in size. The distribution for the average adult weekend ticket price per state varied from the mid 
 90s.
 
@@ -52,6 +54,8 @@ The heat map was helpful to display the correlation between the data points. For
 The scatterplots helped us to determine which features we should be wary of to form our opinion on ticket prices. It also showed what has a high correlation with the price. Ticket price could decrease a little then go up as the number of resorts per capita increases. Ticket price could climb with the higher number of resorts because it indicates a popular area for skiing with plenty of demand like the state of Colorado. On the opposite side a lower price with less ski resorts might be because it is not popular for skiing. Interestingly enough a high price for a resort where the resorts are far in between for the population size could have a monopoly effect. Lastly, if the resort has a big area then having a few fast quads may increase ticket prices.
 
 ## 8. Preprocessing & Training
+[Preprocessing & Training](https://github.com/GHASS19/Data_Science_Ski_Ticket_Price_Predictor_Capstone/blob/master/Notebooks/04_preprocessing_and_training.ipynb)
+
 The Sklearn DummyRegressor was the same as our baseline idea of performance with an average price of 63.81.The results were
 almost the same when we used the median and then the mean. When we utilized the mean for missing values in the linear model they
 were higher. The similar results gave us a model that was overfitting. 
