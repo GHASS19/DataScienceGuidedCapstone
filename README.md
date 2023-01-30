@@ -104,3 +104,4 @@ Modeling Results & Analysis
 (Number of Fast Quads & Runs in Market)
 
 
+https://docs.google.com/presentation/d/1iwARC4MQ7HkyfXkHnpL9DbG23-dlD77XPq0cjlB3rwY/edit#slide=id.g1165fe613bc_0_26
