@@ -4,7 +4,7 @@
 
 
 ## 1. Context of Problem:
-Big Mountain Resort recently installed a new chairlift. The chairlift increased their operating costs by $1,540,000 for the season. The resort's pricing strategy has been to charge a premium above the average price of resorts in its market segment. Big Mountain is probably not capitalizing on its facilities to its potential.Their current ticket price compared to the market average does not provide how important different facilities are to their guests. Their ticket price is undervalued. This hinders their business investment strategy.
+    Big Mountain Resort recently installed a new chairlift. The chairlift increased their operating costs by $1,540,000 for the season. The resort's pricing strategy has been to charge a premium above the average price of resorts in its market segment. Big Mountain is probably not capitalizing on its facilities to its potential.Their current ticket price compared to the market average does not provide how important different facilities are to their guests. Their ticket price is undervalued. This hinders their business investment strategy.
 
 ## 2. Criteria for Success:
 Implementing a data-driven business strategy to create more revenue. Selecting the best possible value for their ticket price with data and information based upon other resorts in the United States that they compete with. Find ways to cut costs without reducing the ticket price. Or creating new facilities to justify a higher ticket price will create new success for Big Mountain.
