@@ -27,7 +27,7 @@ Utilizing an algorithm in python based upon other ski resort’s data and facili
 -skiResort.csv  
 
 ## 6. Data Wrangling
-[Data Wrangling](https://github.com/GHASS19/QB_Project/blob/main/Notebooks/2.%20QB_Data_Wrangling.ipynb) 
+[Data Wrangling](https://github.com/GHASS19/Data_Science_Ski_Ticket_Price_Predictor_Capstone/blob/master/Notebooks/02_data_wrangling.ipynb)
 There are 330 rows and 27 columns in the data originally. Our own resort, Big Mountain Resort was present and did not have any missing data. We know that the adult weekend price is our target feature to predict the ticket price. Prices for tickets in Montana are about equal for weekday and weekend and we have more data on weekend prices.
 
 We dropped the 'fastEight' column because half the values were missing and the rest had a value of 0. This missing information does not help us to create a new ticket price or which facilites to improve. There was a resort created in 2019 that was dropped as a row because we do not know if the numbers were projected or actual at the time of data entry. It is hard to form a sound opinion based upon this type of data. 47 of the 328 columns, (14.32%) had no 'AdultWeekday' or 'AdultWeekend' data, so we deleted those 47 rows as well. Getting rid of this data can help us to form a better idea of how to help the client.
@@ -39,6 +39,7 @@ Currently in the project we have pin pointed that adult weekend prices is the ta
 We have 277 rows and 25 columns left in the data.
 
 ## 7. EDA
+
 Our state of interest, Montana is less densely populated than most of the others but is the third largest state. It is in the top five for total skiable area. A majority of the states have a smaller number of resorts relative to the state population and size. Interestingly New Hampshire and Vermont have a high amount of resorts per area but are small in size. The distribution for the average adult weekend ticket price per state varied from the mid 
 90s.
 
